@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://francescolagioni.github.io/pdfcompare/sitemap.xml

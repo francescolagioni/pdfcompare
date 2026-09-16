@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- REMOVE THIS LINE ON LAUNCH DAY -->
+<meta name="robots" content="noindex">
+<title>Privacy — PDF Compare Offline</title>
+<meta name="description" content="PDF Compare Offline collects nothing and sends nothing. It has no network access.">
+<link rel="canonical" href="https://francescolagioni.github.io/pdfcompare/privacy.html">
+<link rel="icon" href="images/icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="index.html"><img src="images/icon.png" alt=""> PDF Compare Offline</a>
+    <nav>
+      <a href="index.html#how" data-n="how">How it works</a>
+      <a href="compare.html" data-n="compare">Alternatives</a>
+      <a href="guide.html" data-n="guide">Guide</a>
+      <a href="support.html" data-n="support">Support</a>
+      <button class="ghost" id="theme" type="button">Dark</button>
+      <a class="btn" href="#" data-store>Download</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="hero narrow">
+    <p class="eyebrow">Privacy</p>
+    <h1>Nothing leaves your Mac</h1>
+    <p class="lede">The app collects nothing, sends nothing and stores nothing about you. This page exists because Apple requires one, not because there is much to disclose.</p>
+  </div>
+
+  <section>
+    <div class="narrow">
+      <h2>The app</h2>
+      <p class="muted">PDF Compare Offline runs in Apple's sandbox with both incoming and outgoing network access switched off. It cannot connect to the internet, so your documents cannot leave your Mac through it — by design rather than by promise.</p>
+      <p class="muted">There is no account, no sign-in, no analytics, no crash reporting and no advertising. The app reads the files you open and their modification dates, which it uses to suggest which of the two is the newer version. It writes only where you tell it to: the report you export, in the folder you chose.</p>
+    </div>
+    <div class="ent">
+      <div class="ent-head">macOS sandbox · requested entitlements</div>
+      <div class="ent-row"><b>network.client</b><span>absent</span></div>
+      <div class="ent-row"><b>network.server</b><span>absent</span></div>
+      <div class="ent-row"><b>user account</b><span>none</span></div>
+      <div class="ent-row"><b>file.user-selected</b><span>only the PDFs you open</span></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="narrow">
+      <h2>The purchase</h2>
+      <p class="muted">The one-time unlock is handled entirely by Apple through the App Store. I never see your name, your email address or your payment details. The app asks Apple whether this Apple Account owns the unlock, and Apple answers yes or no.</p>
+
+      <h2 style="margin-top:56px">This website</h2>
+      <p class="muted">These pages are hosted on GitHub Pages. They load no fonts, scripts, trackers or images from other companies, and set no cookies. GitHub records server logs, including IP addresses, as any web host does; that is covered by GitHub's privacy statement.</p>
+
+      <h2 style="margin-top:56px">Email</h2>
+      <p class="muted">If you write to support, I keep the message for as long as it takes to answer it and, where it describes a bug, until that bug is fixed. I do not add you to anything and there is nothing to unsubscribe from.</p>
+
+      <h2 style="margin-top:56px">Contact</h2>
+      <p class="muted">Corrado Lagioni, Desenzano del Garda, Italy. Questions about this page go to the <a href="support.html">support address</a>.</p>
+      <p class="small muted">Last updated: September 2026.</p>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="wrap">
+    <span>© 2026 Corrado Lagioni</span>
+    <a href="index.html">Home</a>
+    <a href="compare.html">Alternatives</a>
+    <a href="guide.html">Guide</a>
+    <a href="support.html">Support</a>
+    <a href="privacy.html">Privacy</a>
+    <span class="muted">Not affiliated with Adobe or Apple.</span>
+  </div>
+</footer>
+<script src="site.js"></script>
+</body>
+</html>

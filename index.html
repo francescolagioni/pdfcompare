@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- REMOVE THIS LINE ON LAUNCH DAY -->
+<meta name="robots" content="noindex">
+<title>PDF Compare Offline — see what changed between two PDF versions</title>
+<meta name="description" content="A Mac app that shows every change between two versions of a PDF: added, removed and rewritten text, inserted and deleted pages. Nothing leaves your Mac.">
+<link rel="canonical" href="https://francescolagioni.github.io/pdfcompare/">
+<link rel="icon" href="images/icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="index.html"><img src="images/icon.png" alt=""> PDF Compare Offline</a>
+    <nav>
+      <a href="#how" data-n="how" aria-current="true">How it works</a>
+      <a href="compare.html" data-n="compare">Alternatives</a>
+      <a href="guide.html" data-n="guide">Guide</a>
+      <a href="support.html" data-n="support">Support</a>
+      <button class="ghost" id="theme" type="button">Dark</button>
+      <a class="btn" href="#" data-store>Download</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <div class="hero">
+    <p class="eyebrow">For macOS · document comparison</p>
+    <h1>Two versions.<br>Every change highlighted.</h1>
+    <p class="lede">Open the old revision and the new one: added, removed and rewritten text, inserted or deleted pages. Everything runs on your Mac — the app has no network access at all.</p>
+    <div class="cta-row">
+      <a class="btn btn-lg" href="#" data-store>Download for macOS</a>
+      <span class="cta-note">Free up to 20 pages · full unlock $19.99, one time</span>
+    </div>
+  </div>
+
+  <div class="panel" id="demo">
+    <div class="panel-head">
+      <span>SOP-042 · comparing</span>
+      <span class="tally"><span class="a">+2 added</span><span class="d">−1 removed</span><span class="m">1 rewritten</span></span>
+    </div>
+    <div class="cols">
+      <div class="col">
+        <div class="rev">Revision 03 — 14 Feb 2026</div>
+        <p>Retention samples shall be kept for at least <mark class="del">five years</mark> from the date of batch release. <mark class="mod s3">Disposal is authorised by the department manager.</mark></p>
+      </div>
+      <div class="col">
+        <div class="rev">Revision 04 — 09 Sep 2026</div>
+        <p>Retention samples shall be kept for at least <mark class="add">seven years</mark> from the date of batch release<mark class="add s2">, under continuously monitored temperature and humidity</mark>. <mark class="mod s3">Disposal is authorised by QA.</mark></p>
+      </div>
+    </div>
+    <div class="panel-foot">
+      <span class="key a"><i></i>added</span>
+      <span class="key d"><i></i>removed</span>
+      <span class="key m"><i></i>rewritten</span>
+      <span class="right">page 7 of 34 · 12 pages with changes</span>
+    </div>
+  </div>
+
+  <section id="pricing">
+    <div class="grid2">
+      <div class="card" data-reveal>
+        <h3>Up to 20 pages — free</h3>
+        <p>The full comparison, every change, no account and no time limit. Most SOPs, contracts and tender replies fit here.</p>
+      </div>
+      <div class="card" data-reveal>
+        <h3>Longer documents — $19.99 once</h3>
+        <p>Free keeps working above 20 pages, showing the first five changed pages. One payment removes the limit for good.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="how">
+    <h2>The app, on a real document.</h2>
+    <p class="lede">macOS 14 or later · Apple Silicon and Intel</p>
+    <div class="window" data-reveal>
+      <div class="window-bar"><i></i><i></i><i></i><span>PDF Compare Offline</span></div>
+      <!-- SCREENSHOT: drop images/02-summary.png here and it appears automatically -->
+      <figure class="shot big">
+        <img src="images/02-summary.png" alt="The comparison window showing changed pages" onerror="this.remove()">
+        <figcaption>app screenshot — main comparison window</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="privacy">
+    <h2>Nothing leaves your Mac.</h2>
+    <p class="lede">The app ships without network permissions: it cannot connect, even if you asked it to. No account, no upload, no telemetry. Your documents stay where they are.</p>
+    <div class="ent" data-reveal>
+      <div class="ent-head">macOS sandbox · requested entitlements</div>
+      <div class="ent-row"><b>network.client</b><span>absent</span></div>
+      <div class="ent-row"><b>network.server</b><span>absent</span></div>
+      <div class="ent-row"><b>user account</b><span>none</span></div>
+      <div class="ent-row"><b>file.user-selected</b><span>only the PDFs you open</span></div>
+    </div>
+    <p class="small muted" style="margin-top:16px"><a href="privacy.html">Full privacy statement →</a></p>
+  </section>
+
+  <section>
+    <h2>Buy it once. It stays yours.</h2>
+    <div class="price-grid">
+      <div class="price-card" data-reveal>
+        <h3>PDF Compare Offline</h3>
+        <p class="big">$19.99</p>
+        <p class="small muted">one time · version updates included</p>
+        <ul>
+          <li>Documents up to 20 pages: free, in full</li>
+          <li>Above 20 pages: unlimited unlock</li>
+          <li>No subscription, no renewal</li>
+        </ul>
+      </div>
+      <div class="price-card is-them" data-reveal>
+        <h3 class="muted">Subscription tools</h3>
+        <p class="big">$19.99<span style="font-size:20px;font-weight:500"> / month</span></p>
+        <p class="small muted">that is $719.64 over three years</p>
+        <ul>
+          <li>Comparison stops when the licence lapses</li>
+          <li>Account and cloud services required</li>
+          <li>Features you never use, in the price</li>
+        </ul>
+      </div>
+    </div>
+    <p class="small muted" style="margin-top:18px">Adobe Acrobat Pro, the most common monthly plan for PDF comparison, listed at $19.99 per month in September 2026. <a href="compare.html">See the full comparison →</a></p>
+  </section>
+
+  <section>
+    <h2>What the comparison shows.</h2>
+    <div class="grid4">
+      <div class="feat a" data-reveal><i></i><h3>Added text</h3><p>Word by word, not line by line: exactly what entered the new revision.</p></div>
+      <div class="feat d" data-reveal><i></i><h3>Removed text</h3><p>Deleted passages stay readable in the left column, struck through in red.</p></div>
+      <div class="feat m" data-reveal><i></i><h3>Rewritten text</h3><p>Reworded passages are marked as such, side by side with the original.</p></div>
+      <div class="feat p" data-reveal><i></i><h3>Inserted or deleted pages</h3><p>Alignment accounts for new pages, so shifted numbering never creates false positives.</p></div>
+    </div>
+    <div class="grid2">
+      <figure class="shot"><img src="images/03-side-by-side.png" alt="A page shown in both revisions" onerror="this.remove()"><figcaption>screenshot — side by side</figcaption></figure>
+      <figure class="shot"><img src="images/04-overlay.png" alt="Two versions of a page overlaid" onerror="this.remove()"><figcaption>screenshot — overlay view</figcaption></figure>
+    </div>
+  </section>
+
+  <section>
+    <h2>Try it on the next document you have to check.</h2>
+    <p class="lede">Up to 20 pages the comparison is complete and free. Above that, the free version highlights the first five changed pages.</p>
+    <div class="cta-row">
+      <a class="btn btn-lg" href="#" data-store>Download for macOS</a>
+      <span class="cta-note">macOS 14 or later · Apple Silicon and Intel</span>
+    </div>
+  </section>
+
+</main>
+<footer>
+  <div class="wrap">
+    <span>© 2026 Corrado Lagioni</span>
+    <a href="index.html">Home</a>
+    <a href="compare.html">Alternatives</a>
+    <a href="guide.html">Guide</a>
+    <a href="support.html">Support</a>
+    <a href="privacy.html">Privacy</a>
+    <span class="muted">Not affiliated with Adobe or Apple.</span>
+  </div>
+</footer>
+<script src="site.js"></script>
+</body>
+</html>
